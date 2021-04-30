@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Courier New;
+    font-size: 10px;
+}
+
+.nav-link-css{
+    margin: 2rem;
+    font-size: 1rem;    
+    font-family: Courier New;
+}
+
+.header-css{
+    font-size: 3rem;
+    text-shadow: 0rem 0rem .4rem red;
+    color: black;
+}
+
+.main-css{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.main-css .country-css{
+    padding: 1.0rem;
+    border-top-left-radius: 2.0rem;
+    border-bottom-left-radius: 2.0rem;
+    outline: none;
+    box-shadow: 0rem 0rem 1.0rem;
+    font-family: Courier New;
+    font-size: 1rem;
+    border: none;    
+}
+
+.main-css  .search-css{
+    outline: none;
+    padding: 1.0rem;
+    border-top-right-radius: 2.0rem;
+    border-bottom-right-radius: 2.0rem;
+    box-shadow: 0rem 0rem 1.0rem;
+    font-size: 0.9rem;
+    font-family: Courier New; 
+    border: none;      
+}
+
+.output-css{
+    font-size: 1.2rem;
+    font-family: Courier New;
+    border-radius: 2.0rem;
+    box-shadow: 0rem 0rem 1.0rem;
+    width: 20rem;
+    margin-top: 3.0rem;
+    display: flex;
+    flex-direction: column;
+    word-spacing:0.2rem;
+    text-align: left;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+[data-theme="dark"] {
+    background: #111;
+    color: #eee;
+}
+[data-theme="dark"] .country-css{
+    box-shadow: 0rem 0rem 1.0rem white;
+}
+[data-theme="dark"] .search-css{
+    box-shadow: 0rem 0rem 1.0rem white; 
+}
+[data-theme="dark"] .header-css{
+    color: white;
+}
